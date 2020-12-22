@@ -1,3 +1,8 @@
+/* Laat alles bovenaan de browser beginnen */
+body{
+	margin: 0 auto;
+}
+
 /* De hele gehaktbrood pagina */
 div{
 	margin: 0 auto;
@@ -44,7 +49,28 @@ ul > li, ol > li, .tip-box{
 
 /* Maakt De tip-box de juiste kleur */
 .tip-box{
-		background-color: #def6ed;
-		border-radius: 4px;
-		margin-left: 25px;
+	background-color: #def6ed;
+	border-radius: 4px;
+	margin-left: 25px;
+}
+
+/* Weergeeft de knoppen helemaal bovenaan de browser */
+.pageChooserFixer{
+	padding: 0px; 
+	margin: 0%; /* Laat de balk en de knoppen helemaal bovenaan de browser beginnen */
+}
+
+/* Veranderd de grootte/positie van de knoppen */
+.pageChooser{
+	margin-top: 0%;
+	margin-right: 20px; /* Geeft de ruimte tussen de knoppen(rechts) 20px afstand */
+	padding: 10px; /* De grootte van de knoppen */
+	background-color: green;
+	display:block; /* Laat de balk de volledige grootte van de buttons gebruiken als einde */
+	display: inline-block; /* Zet de knoppen in het midden van de balk */
+}
+
+/* Veranderd de grootte van het woord "tip" in de tip-balk */
+span{
+	font-size: 26px;
 }
